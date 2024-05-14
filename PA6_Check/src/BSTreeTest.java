@@ -31,7 +31,6 @@ class BSTreeTest {
 
     @Test
     public void getRoot() {
-        // Test when the tree is empty
         assertNull(tree.getRoot());
     }
     @Test

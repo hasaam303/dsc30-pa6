@@ -182,7 +182,7 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
             throw new NullPointerException("Key cannot be null");
         }
         if (findKey(key)) {
-            return false; // Key already exists
+            return false;
         }
         root = insert(root, key);
         return true;
