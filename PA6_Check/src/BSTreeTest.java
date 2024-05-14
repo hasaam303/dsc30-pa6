@@ -122,14 +122,14 @@ class BSTreeTest {
         });
     }
     @Test
-    void InsertData3(){
+    void insertData3(){
         assertThrows(NullPointerException.class, () -> {
             tree.insertData(null, 20);
         });
     }
 
     @Test
-    void insertData3(){
+    void insertData4(){
         tree.insert(10);
         assertThrows(NullPointerException.class, () -> {
             tree.insertData(10, null);
